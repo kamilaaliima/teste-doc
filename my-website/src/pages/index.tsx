@@ -24,7 +24,6 @@ function HomepageHeader() {
           </Link>
         </div>
       </div>
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </header>
   );
 }

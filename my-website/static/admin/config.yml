@@ -20,7 +20,7 @@
         slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
         filter:
           field: language
-          value: PT
+          value: PT-BR
         fields:
           - { name: Doc, label: documento, widget: string }
           - { name: body, label: Body, widget: markdown }
