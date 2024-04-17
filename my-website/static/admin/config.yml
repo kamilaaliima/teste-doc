@@ -18,7 +18,11 @@
         widget: "documentação"
         create: true
         slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+        filter:
+          field: language
+          value: PT
         fields:
-          - { name: Doc, label: Kamila, widget: string }
+          - { name: Doc, label: documento, widget: string }
           - { name: body, label: Body, widget: markdown }
+          - { label: "Language", name: "language" }
 
