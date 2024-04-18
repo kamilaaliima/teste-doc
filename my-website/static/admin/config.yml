@@ -1,6 +1,6 @@
     backend:
       name: github
-      branch: main # Branch to update (optional; defaults to master)
+      branch: decap # Branch to update (optional; defaults to master)
       repo: kamilaaliima/teste-doc
       preview_context: my-provider/deployment
     
