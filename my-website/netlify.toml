@@ -1,4 +1,4 @@
 [build]
-  base = "doc"    
+  base = "my-website"    
   command = "npm run build"
   publish = "my-website"
